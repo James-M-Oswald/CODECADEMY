@@ -1,0 +1,38 @@
+public class Magic8 {
+  public static void main(String[] args) {
+    System.out.println("What truths do you seek?\n");
+    int choice = (int) (Math.random() * 8 + 1);
+
+    if (choice == 1) {
+      System.out.println("Hmmm... im unsure how to answer...");
+    }
+
+   else if (choice == 2) {
+      System.out.println("It is definitely a maybe");
+    }
+
+    else if (choice == 3) {
+      System.out.println("Nope!");
+    }
+
+    else if (choice == 4) {
+      System.out.println("Yeah i guess so!");
+    }
+
+    else if (choice == 5) {
+      System.out.println("Seriously? what do you think?");
+    }
+
+    else if (choice == 6) {
+      System.out.println("I dont think you should be asking me that question. Im only an 8 Ball");
+    }
+
+    else if (choice == 7) {
+      System.out.println("100% NO DOUBT!");
+    }
+
+    else  {
+      System.out.println("Im sorry to tell you, but YES!");
+    }
+  }
+}
